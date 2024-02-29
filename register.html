@@ -4,20 +4,42 @@
 <head>
     <title>Registration</title>
 </head>
+<style> 
+    #divContainer {
+        text-align: center;
+    }
+/* Class */
+    .redText {
+        color: red;
+        background-color: white;
+        
+    }
+/* same tag element */
+    .redText:hover {
+       color: blue;
+       background-color: greenyellow;
+    }
+/* Event */
+    div {
+        margin-bottom: 1rem;
+        font-size: large;
+    }
+
+</style>
 
 <body>
-    <div style="text-align: center;">
+    <div id="divContainer">
         <h1>d2 Mag-register</h1>
          </div>
 
             <div style="text-align: center;">
-                <input type="text" placeholder="Username">
-                <input type="password" placeholder="Password">
-                <input type="password" placeholder="Confirm Password">               
+                <input type="text" placeholder="Username" class="redText">
+                <input type="password" placeholder="Password" class="redText">
+                <input type="password" placeholder="Confirm Password" class="redText">               
             </div>
             <div style="text-align: center;">
-                <input type="text" placeholder="Pangalan">
-                <input type="text" placeholder="Apelyido">
+                <input type="text" placeholder="Pangalan" class="redText">
+                <input type="text" placeholder="Apelyido" class="redText">
             </div>
        
   
