@@ -44,7 +44,8 @@
         <div style="margin: 1rem;">       
         </div>
         <div>        
-            <button style="color: blue;">Login</button>
+            <button id="buttonLogin"
+            style="color: blue;">Login</button>
             <a href="./register.html">
                 <button style="color: green">Register
                 </button>
@@ -55,4 +56,13 @@
 </div>
 
 </body>
+<script>
+    alert ("Hi! Welcome!");
+
+    console.log("Registration Successful", 1 + 1);
+    let buttonLogin = document.querySelector("#buttonLogin")
+    buttonLogin.onclick = function () {
+       alert ("Login Successful")
+    }
+</script>
 </html>
