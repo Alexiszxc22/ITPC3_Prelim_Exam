@@ -4,15 +4,39 @@
 <head>
     <title>Registration</title>
 </head>
+<style> 
+    #divContainer {
+        text-align: center;
+    }
+/* Class */
+    .redText {
+        color: red;
+        background-color: beige;
+        
+    }
+/* same tag element */
+    .redText:hover {
+       color: blue;
+       background-color: green;
+    }
+/* Event */
+    div {
+        margin-bottom: 1rem;
+        font-size: large;
+    }
+
+</style>
 
 <body>
-    <div style="text-align: center;">
+    <div id="divContainer">
         <h1>Login.</h1>
+    
+    <div>
+        <input type="text" placeholder="Username" class="redText">
+        <div>
+            <input type="password" placeholder="Password" class="redText">
+        </div>
     </div>
-            <div style="text-align: center;">
-                <input type="text" placeholder="Username">
-                <input type="password" placeholder="Password">              
-            </div>
     </div>
         
     
@@ -28,6 +52,7 @@
             
         </div>
     </div>
+</div>
 
 </body>
 </html>
